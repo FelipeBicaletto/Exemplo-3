@@ -34,9 +34,22 @@ let exemplo5 = [];
 console.log(typeof exemplo5)
 
 //CONVERSÕES
-
 let numFloat = 123.456;
 console.log(parseInt(numFloat))
 
 let numString = "123.456";
 console.log(parseFloat(numString))
+
+//METODOS
+
+//length = verifica o tamanho da string
+let frase = "O mundo da tecnologia";
+console.log(frase.length)
+
+//indexOf = retorna um trecho do texto
+let texto = "A programação indomável e sustentável";
+console.log(texto.indexOf("ão"))
+
+//slice = retorna um trecho do texto com inicio e final 
+let info = "Processamento de ponta";
+console.log(info.slice(2,6))
