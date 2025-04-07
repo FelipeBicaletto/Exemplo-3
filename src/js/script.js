@@ -66,14 +66,59 @@
 
 //OPERADORES LÓGICOS
 
-const num3 = 10;
-const num4 = 20;
+// const num3 = 10;
+// const num4 = 20;
 
-console.log(num3 < num4)
-console.log(num3 > num4 && num4 < num3)
-console.log(num3 < num4 || num4 < num3)
+// console.log(num3 < num4)
+// console.log(num3 > num4 && num4 < num3)
+// console.log(num3 < num4 || num4 < num3)
 
-//OPERADORES DE COMPARAÇÃO
+// //OPERADORES DE COMPARAÇÃO
 
-console.log(num3 == num4)
-console.log(num3 === num4)
+// console.log(num3 == num4)
+// console.log(num3 === num4)
+
+// ESTRUTURA CONDICIONAL
+
+// if
+// let num = 10;
+// if(num==10){
+//     console.log("é verdadeiro")
+// }
+
+// // if / else
+// let usuario="teste"
+// if(usuario == "teste"){
+//     console.log("Usuario Correto")
+// }else{
+//     console.log("Usuario Errado")
+// }
+
+// // if encadeado / alinhado
+
+// let idade = 15
+// if(idade <= 15){
+//     console.log("Menor de idade")
+// }else if(idade > 15 && idade <18){
+//     console.log("Não é maior mas pode entrar")
+// }else{
+//     console.log("Pode entrar é maior")
+// }
+
+// // switch
+// let time = "Corinthians";
+// switch(time){
+//     case "Corinthians":
+//         console.log("Melhor time")
+//         break;
+//     case "São Paulo":
+//         console.log("Não é o melhor time")
+//         break;
+//     case "Palmeiras":
+//         console.log("Não tem mundial")
+//         break;
+//     default:
+//         console.log("Nenhuma das opções")
+// }
+
+// // ternario
