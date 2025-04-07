@@ -121,4 +121,14 @@
 //         console.log("Nenhuma das opções")
 // }
 
-// // ternario
+//ternario
+let valor = 100
+
+let resultado = valor == 100? "Certo" : "Errado"
+console.log(resultado)
+
+// ternario encadeado
+
+let produto ="notebook"
+const desconto =true;
+const preço = produto == "notebook" ? desconto ? 100 : 200 : produto === "mouse" ? 30 : 100;
